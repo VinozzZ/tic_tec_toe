@@ -1,0 +1,46 @@
+* {
+    background-color:#1F2C40;
+}
+h1 {
+    color: #A07216;
+    font-size: 60px;
+}
+
+#board {
+    max-width: 640px;
+    min-width: 300px;
+    float: none;
+    margin: auto;
+}
+
+.square {
+    background-color: #614E29;
+    border: 2px solid #1C1A15;
+    outline: none;
+    width: 30%;
+    padding: 40px 0;
+    font-size: 30px;
+    color :#F5A300;
+}
+
+.square:hover {
+    border:5px solid #F5A300;
+}
+.clicked {
+    font-size: 30px;
+}
+.winning-sqaure {
+    background-color: #0326A6;
+}
+
+#menu {
+    margin-top: 10px;
+    padding:10px 0;
+}
+
+#menu button {
+    padding: 10px 10px;
+    background-color: #A07216;
+    border: 2px solid #1C1A15;
+    outline: none;
+}
